@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 #info: update the kernel to 4.14.49
 #author: chenshifei
 #date: 2018-06-20
