@@ -19,3 +19,9 @@ ln -s /usr/python/bin/python3 /usr/bin/python3
 ln -s /usr/python/bin/pip3 /usr/bin/pip3
 cd  /etc/ld.so.conf.d
 echo '/usr/python/lib'>> python3.conf
+ldconfig
+pip3 install pyutil
+pip3 install paramiko
+pip3 install fabric
+pip3 install requests
+pip3 install pymysql
