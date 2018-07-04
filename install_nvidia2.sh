@@ -1,4 +1,5 @@
 #/tmp/install_nvidia.sh
+#env is after /etc/rc.local,please notice!
 echo 'nameserver 114.114.114.114'> /etc/resolv.conf
 if [ ! -f /etc/yum.repos.d/epel.repo -o ! -f /etc/yum.repos.d/CentOS-Base.repo ];then
 	wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
